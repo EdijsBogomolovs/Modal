@@ -15,15 +15,30 @@
 </head>
 
 <body>
-    <a id="btn" href="#modal">DEMO02</a>
+    <nav>
+        <div class="container">
+            <img src="img/logo.png" alt="logo">
+         </div>
+    </nav>
+    <a id="btn" class="buyButton" href="#modal">Buy</a>
     <div id="modal">
-        <!--"THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID-->
-        <div id="btn-close-modal" class="close-modal">
-            CLOSE MODAL
-        </div>
-
         <div class="modal-content">
-            <!--Your modal content goes here-->
+            <div id="btn-close-modal" class="close-modal">
+                <img src="img/close.svg" alt="close-icon">
+            </div>
+            <div class="productBackground">
+                <img class="animated" src="img/airpod.png" alt="airpods">
+            </div>
+            <div class="productDescription">
+                <div class="productName">
+                    <h1>AirPods</h1>
+                    <p>with Wireless Charging Case</p>
+                </div>
+                <div class="productPrice">
+                    <h3>$199.00</h3>
+                    <a class="buyButton" href="index.html">Buy</a>
+                </div>
+            </div>
         </div>
     </div>
     <script src="js/jquery.min.js"></script>
